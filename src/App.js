@@ -86,15 +86,19 @@ function Projects() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           <div className="bg-white p-4 md:p-6 rounded-lg shadow-md">
             <h3 className="text-lg md:text-xl font-semibold mb-2">E-commerce Platform</h3>
-            <p className="text-gray-700 text-sm md:text-base">A full-stack e-commerce solution built with MERN stack</p>
+            <p className="text-gray-700 text-sm md:text-base">https://github.com/Laxmi-999/e-commerce</p>
+            <p className="text-gray-700 text-sm md:text-base">https://github.com/Laxmi-999/ecomapi</p>
+
           </div>
           <div className="bg-white p-4 md:p-6 rounded-lg shadow-md">
             <h3 className="text-lg md:text-xl font-semibold mb-2">Real Time ChatApp</h3>
-            <p className="text-gray-700 text-sm md:text-base">A full-stack ChatApp with real time chat functionality</p>
+            <p className="text-gray-700 text-sm md:text-base">https://github.com/Laxmi-999/ChatApp</p>
+            <p className="text-gray-700 text-sm md:text-base">https://github.com/Laxmi-999/ChatAppServer</p>
+
           </div>
           <div className="bg-white p-4 md:p-6 rounded-lg shadow-md">
             <h3 className="text-lg md:text-xl font-semibold mb-2">Portfolio Website</h3>
-            <p className="text-gray-700 text-sm md:text-base">Personal portfolio built with React and Tailwind CSS</p>
+            <p className="text-gray-700 text-sm md:text-base">https://github.com/Laxmi-999/Portfolio</p>
           </div>
         </div>
       </div>
@@ -106,7 +110,7 @@ function Projects() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           <div className="bg-white p-4 md:p-6 rounded-lg shadow-md">
             <h3 className="text-lg md:text-xl font-semibold mb-2">website for Education Consultancy</h3>
-            <p className="text-gray-700 text-sm md:text-base">Website for education material using react and tailwindc CSS </p>
+            <p className="text-gray-700 text-sm md:text-base">https://educationsafari.com/</p>
           </div>
           <div className="bg-white p-4 md:p-6 rounded-lg shadow-md">
             <h3 className="text-lg md:text-xl font-semibold mb-2">Admin Panel with CRUD operation </h3>
@@ -173,13 +177,14 @@ function Contact() {
             </h3>
             <div className="space-y-4 mt-4 flex flex-col md:flex-row md:space-y-0 md:space-x-6 lg:ml-[9rem] lg:mr-[9rem] lg:items-left lg:justify-between">
               <p className="text-gray-700 text-sm md:text-base bg-white rounded-full px-6 py-3 w-full md:w-auto text-center ">
-                <span className="font-bold">Phone:</span> 9824543632
+              <span className="font-bold">Email:</span> regmilaxmi325@gmail.com
+
               </p>
               <p className="text-gray-700 text-sm md:text-base bg-white rounded-full px-6 py-3 w-full md:w-auto text-center ">
-                <span className="font-bold">Email:</span> regmilaxmi972@gmail.com
+              <span className="font-bold">LinkedIn:</span> https://www.linkedin.com/in/laxmi-regmi-a21820292/
               </p>
               <p className="text-gray-700 text-sm md:text-base bg-white rounded-full px-6 py-3 w-full md:w-auto text-center  ">
-                <span className="font-bold">Address:</span> Bharatpur-10, Chitwan
+                <span className="font-bold">GitHub:</span> https://github.com/Laxmi-999
               </p>
             </div>
           </div>
