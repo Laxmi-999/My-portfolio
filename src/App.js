@@ -181,11 +181,27 @@ function Contact() {
 
               </p>
               <p className="text-gray-700 text-sm md:text-base bg-white rounded-full px-6 py-3 w-full md:w-auto text-center ">
-              <span className="font-bold">LinkedIn:</span> https://www.linkedin.com/in/laxmi-regmi-a21820292/
-              </p>
+              <span className="font-bold">LinkedIn:</span> 
+              <a
+                    href="https://www.linkedin.com/in/laxmi-regmi-a21820292/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:underline"
+                  >
+                    https://www.linkedin.com/in/laxmi-regmi-a21820292/
+                  </a>             
+                 </p>
               <p className="text-gray-700 text-sm md:text-base bg-white rounded-full px-6 py-3 w-full md:w-auto text-center  ">
-                <span className="font-bold">GitHub:</span> https://github.com/Laxmi-999
-              </p>
+                <span className="font-bold">GitHub:</span> 
+                <a
+                      href="https://github.com/Laxmi-999"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:underline"
+                    >
+                      https://github.com/Laxmi-999
+                    </a>            
+               </p>
             </div>
           </div>
           
