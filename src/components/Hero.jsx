@@ -40,7 +40,7 @@ const Hero = () => {
              MERN STACK
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed animate-fade-in [animation-delay:0.4s]">
-            Exploring full-stack web development through hands-on projects using React.js, Javascript, Typescript, Next.js, Node.js, and MongoDB. 
+            Exploring full-stack web development through hands-on projects using React.js, Javascript, Typescript, Next.js, Node.js, Express.js and MongoDB. 
             I enjoy solving problems, improving my skills with each project, and focusing on writing clean, maintainable code. 
             Currently working on small applications to apply what I learn and build real-world experience.
             </p>
