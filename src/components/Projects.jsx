@@ -3,7 +3,7 @@ import { Badge } from "./ui/badge";
 import { Button } from "./ui/Button";
 import { Card, CardContent } from "./ui/card";
 
-const Projects = () => {
+const Projects = ({scrollToContact}) => {
   const projects = [
     {
       title: "E-commerce Web Application",
@@ -56,6 +56,20 @@ const Projects = () => {
         { name: "Number Guessing", url: "https://guess-the-number-tawny-phi.vercel.app" },
         { name: "Basic Calculator", url: "https://basic-calculator-2t3z.vercel.app" }
       ]
+    },
+    {
+      title: "Basic Chat Application",
+      description: "A simple real-time chat app built with the MERN stack, enabling seamless communication with a clean and intuitive interface.",
+      technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+      features: [
+        "Real-time messaging",
+        "User authentication",
+        "Responsive design",
+        "Clean and intuitive UI"
+      ],
+      link: "https://chat-app-brown-xi-79.vercel.app/",
+      github: "#",
+      gradient: "from-accent to-primary"
     }
   ];
 
@@ -123,7 +137,7 @@ const Projects = () => {
                           Live Demo
                         </a>
                       </Button>
-                      <Button 
+                      {/* <Button 
                         variant="outline" 
                         size="sm"
                         className="border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
@@ -133,7 +147,7 @@ const Projects = () => {
                           <Github className="mr-2 h-4 w-4" />
                           Source Code
                         </a>
-                      </Button>
+                      </Button> */}
                     </div>
 
                     {/* Additional Game Links */}
@@ -199,6 +213,8 @@ const Projects = () => {
             <Button 
               variant="default" 
               size="lg"
+              onClick={scrollToContact}
+
               className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
             >
               Get In Touch

@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { forwardRef, useState } from "react";
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/Button";
 import { Input } from "./ui/Input";
 import { Textarea } from "./ui/textarea";
 import { Mail, Phone, MapPin, Send, ExternalLink } from "lucide-react";
 
-const Contact = () => {
+const Contact = forwardRef((props, ref) => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -32,26 +32,26 @@ const Contact = () => {
       title: "Email",
       value: "regmilaxmi972@gmail.com",
       href: "mailto:regmilaxmi972@gmail.com",
-      gradient: "from-primary to-accent"
+      gradient: "from-primary to-accent",
     },
     {
       icon: Phone,
       title: "Phone",
       value: "+977 9824543632",
       href: "tel:+9779824543632",
-      gradient: "from-accent to-primary"
+      gradient: "from-accent to-primary",
     },
     {
       icon: MapPin,
       title: "Location",
       value: "Bhaktapur-Thimi, Nepal",
       href: "#",
-      gradient: "from-primary to-accent"
+      gradient: "from-primary to-accent",
     },
   ];
 
   return (
-    <section id="contact" className="py-20 px-6">
+    <section id="contact" className="py-20 px-6" ref={ref}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
@@ -188,6 +188,6 @@ const Contact = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Contact;

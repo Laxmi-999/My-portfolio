@@ -78,40 +78,6 @@ const Skills = () => {
             </Card>
           ))}
         </div>
-
-        {/* Skill Progress Bars */}
-        <div className="mt-16">
-          <h3 className="text-2xl font-bold text-center mb-8 text-foreground">
-            Technical Proficiency
-          </h3>
-          
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {[
-              { name: "React.js", level: 90 },
-              { name: "Next.js", level: 85 },
-              { name: "Tailwind CSS", level: 95 },
-              { name: "JavaScript", level: 88 },
-              { name: "Node.js", level: 75 },
-              { name: "Database Management", level: 80 }
-            ].map((skill, index) => (
-              <div key={skill.name} className="space-y-2">
-                <div className="flex justify-between text-sm">
-                  <span className="text-foreground font-medium">{skill.name}</span>
-                  <span className="text-accent">{skill.level}%</span>
-                </div>
-                <div className="h-2 bg-muted rounded-full overflow-hidden">
-                  <div 
-                    className="h-full bg-gradient-primary rounded-full transition-all duration-1000 ease-out"
-                    style={{ 
-                      width: `${skill.level}%`,
-                      animationDelay: `${index * 0.2}s`
-                    }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

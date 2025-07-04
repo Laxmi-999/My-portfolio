@@ -4,7 +4,7 @@ import { Button } from "./ui/Button";
 
 // import heroImage from "@/assets/hero-bg.jpg";
 
-const Hero = () => {
+const Hero = ({scrollToContact}) => {
   return (
     <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -47,7 +47,9 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in [animation-delay:0.6s]">
-            <Button variant="default" size="lg" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
+            <Button variant="default" size="lg"
+            onClick={scrollToContact}
+             className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
             </Button>
